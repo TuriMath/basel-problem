@@ -1,0 +1,14 @@
+{
+  "slug": "BaselProblem",
+  "issue": "TuriMath/basel-problem#1",
+  "tier": 1,
+  "source": "Wikipedia, Basel problem (lead); Wiedijk 100 theorems, item 14",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["hasSum_zeta_two", "HasSum.tendsto_sum_nat", "tendsto_add_atTop_iff_nat", "Finset.sum_eq_sum_Ico_succ_bot", "Finset.range_eq_Ico"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Not a from-scratch proof: the analytic content is Mathlib's hasSum_zeta_two (sum from n=0, 1/0=0). The proof here only shifts the index by one and converts HasSum to the partial-sum limit. First attempt worked."
+}

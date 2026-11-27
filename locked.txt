@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+958985c6e9493dd19df2572a7c88f361185ac971424dddb16d8058f525b53551  Theorems/BaselProblem/A.lean
+0557a3bea21aec26358e3566778f30553bb0f5612f80f5a5c2d869b902443c3b  Theorems/BaselProblem/B.lean
+52bfce3ab21818f0951687c445a7d92a81a075d385cf341019ca4d6d4d4f088d  Theorems/BaselProblem/Equiv.lean

@@ -2,3 +2,4 @@
 import Theorems.BaselProblem.A
 import Theorems.BaselProblem.B
 import Theorems.BaselProblem.Equiv
+import Theorems.BaselProblem.Proof
